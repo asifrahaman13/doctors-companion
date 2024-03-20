@@ -1,0 +1,57 @@
+{
+    "Subjective": {
+      "HPI": "Include symptom dimensions, chronological narrative of patient’s complaints, information obtained from other sources.",
+      "PertinentPastMedicalHistory": "Details of pertinent past medical history.",
+      "ReviewOfSystems": "Patient has not had any stiffness or loss of motion of other joints.",
+      "CurrentMedications": [
+        {
+          "MedicationName": "Medication1",
+          "Dosage": "Daily Dosage1"
+        },
+        {
+          "MedicationName": "Medication2",
+          "Dosage": "Daily Dosage2"
+        }
+      ]
+    },
+    "Objective": {
+      "VitalSigns": {
+        "HeartRate": "Value",
+        "BloodPressure": "Value",
+        "RespiratoryRate": "Value",
+        "Temperature": "Value",
+        "OxygenSaturation": "Value"
+      },
+      "PhysicalExam": "Focuses physical exam details.",
+      "LabData": "Details of all pertinent labs, x-rays, etc. completed at the visit."
+    },
+    "Assessment": {
+      "AssessmentDescription": "A one-sentence description of the patient and major problem.",
+      "ProblemList": [
+        {
+          "ProblemNumber": 1,
+          "ProblemDescription": "Major problem description supported by findings."
+        },
+        {
+          "ProblemNumber": 2,
+          "ProblemDescription": "Additional problem description supported by findings."
+        }
+      ],
+      "DifferentialDiagnoses": [
+        "Differential Diagnosis 1",
+        "Differential Diagnosis 2"
+      ]
+    },
+    "Plan": {
+      "DiagnosticPlan": "Develop a diagnostic plan including tests, procedures, consultations, etc.",
+      "TreatmentPlan": {
+        "PatientEducation": "Details of patient education.",
+        "Pharmacotherapy": "Details of pharmacotherapy if any.",
+        "OtherTherapeuticProcedures": "Details of other therapeutic procedures."
+      },
+      "FollowUp": "Plans for follow-up, next scheduled visit, etc."
+    }
+  }
+  
+
+  

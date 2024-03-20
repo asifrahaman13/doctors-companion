@@ -1,0 +1,60 @@
+Use simple everyday language, short sentences at a 8th grade reading level.
+Use active voice as if instructing the user.
+
+
+
+
+Write a concise summary of the following text delimited by triple backquotes.
+            Summarize this physician visit as if you are trying to explain what you heard.
+
+
+-- Print medications everytime, even if no instruction is detected
+-- Using the transcription itself to ans the questions
+-- "gpt-3.5-turbo-1106"
+
+
+--  "List the instructions given to the patient to take those medications with the name respectively with their indications, also include when to start and stop, if indicated?",
+
+-- "What are the clinically correct names of the medications that are indicated by the doctor?"
+-- 
+
+
+-- "Unknown medication" when no medication
+
+
+
+
+---
+
+        "What is the patient's name?",
+        "Provide the diagnosis if any given by the doctor?",
+        "Identify the names of the medications discussed in the context and auto-correct the name, if needed.",
+        "List all the detailed medical instructions for each medication mentioned. ",
+        "List the short medical indications for each medication mentioned.",
+        "What are the General instructions indicated, not include medications?",
+        "When is the follow-up visit and any detailed instructions given related to the follow-up visit?"
+
+
+---
+
+
+        "Can you tell me the name of the patient?",
+        "What did the doctor diagnose the patient with, if any?",
+        "Could you identify any medications mentioned in the conversation? If so, please correct any misspellings.",
+        "Share any detailed instructions given for each medication mentioned.",
+        "Briefly, what are the medical reasons for using each mentioned medication?",
+        "List if there any general instructions provided by the doctor, excluding medication advice?",
+        "When is the follow-up visit scheduled, and are there any specific instructions related to it?"
+
+
+----
+         "Timing: response", "dosage: response & Frequency:response", "Indication:response"
+
+----
+
+        Test Instance 
+        Production Instance
+
+        Response Deplays in Cloud 
+        Result Quality 
+

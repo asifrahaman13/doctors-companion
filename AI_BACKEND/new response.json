@@ -1,0 +1,57 @@
+{
+    "summary": "Mrs. Nguyen has been having severe headaches for 6 months. The doctor thinks it might be migraines and wants to do tests to be sure. Treatment options include medication and lifestyle changes. Mrs. Nguyen will have a follow-up appointment in 4-6 weeks.",
+    "Subjective": {
+        "History of Present Illness": "Not discussed by doctor",
+        "Review of Systems": "Not discussed by doctor",
+        "Pertinent Past Medical History": "Not discussed by doctor",
+        "Current Medications": [
+            {
+                "Medication Name": "Not discussed by Doctor",
+                "Dosage & Frequency": "Not discussed by Doctor"
+            }
+        ],
+        "Medication allergies": "Not discussed by doctor",
+        "Family History": "Not discussed by doctor",
+        "Social History": "Not discussed by doctor"
+    },
+    "Objective": {
+        "VitalSigns": {
+            "Heart Rate": "Not discussed by doctor",
+            "BloodPressure": "Not discussed by doctor",
+            "Respiratory Rate": "Not discussed by doctor",
+            "Temperature": "Not discussed by doctor",
+            "Oxygen Saturation": "Not discussed by doctor"
+        },
+        "PhysicalExam": "Not discussed by doctor",
+        "LabData": "Not discussed by doctor"
+    },
+    "Assessment": {
+        "Assessment Description": "The doctor's assessment of the patient's condition is that her symptoms are consistent with migraines, but further tests are needed to rule out other causes.",
+        "ProblemList": [
+            {
+                "Problem Number": 1,
+                "Problem Description": "The patient has been experiencing severe headaches for approximately 6 months. The headaches are throbbing and usually occur on one side of the head. They last for several hours and significantly affect the patient's daily life."
+            },
+            {
+                "Problem Number": 2,
+                "Problem Description": "The patient experiences sensitivity to both light and sound during the headaches. She often needs to lie down in a dark and quiet room to alleviate the symptoms."
+            },
+            {
+                "Problem Number": 3,
+                "Problem Description": "The patient occasionally experiences nausea along with the headaches, but without any vomiting."
+            }
+        ],
+        "DifferentialDiagnoses": [
+            "migraines"
+        ]
+    },
+    "Plan": {
+        "DiagnosticPlan": "Perform a neurological exam to assess the patient's condition.",
+        "TreatmentPlan": {
+            "Patient Education": "Provide educational material to help the patient understand migraines and when to seek further medical attention.",
+            "Pharmacotherapy": "Start a preventive medication called Topiramate at a low dose and as needed.",
+            "Other Therapeutic Procedures": "Not discussed by doctor"
+        },
+        "FollowUp": "Schedule a follow-up in about 4 to 6 weeks."
+    }
+}
